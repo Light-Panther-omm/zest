@@ -1,0 +1,60 @@
+/* Custom Font */
+@font-face {
+    font-family: 'CustomTitleFont';
+    src: url("data:font/otf;base64,{font_base64}") format("opentype");
+}
+
+/* Heading Styling */
+h1 {
+    font-family: 'CustomTitleFont', sans-serif !important;
+}
+
+/* Main App Background */
+.stApp {
+    background-color: #f0f2f6;
+}
+
+/* Sidebar Background */
+[data-testid="stSidebar"] {
+    background-color: #fbeec1;
+}
+
+/* Chat Bubble Containers */
+.chat-bubble {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+/* User Message */
+.user-bubble {
+    background-color: #2f2f2f;
+    color: white;
+    margin-left: auto;
+}
+
+/* Bot Message */
+.bot-bubble {
+    background-color: #e0f7fa;
+    color: black;
+    margin-right: auto;
+}
+
+/* Disease Highlighting */
+mark {
+    background-color: #ffeb3b;
+    font-weight: bold;
+}
+
+/* Login Box Style (optional use in login section) */
+.login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
